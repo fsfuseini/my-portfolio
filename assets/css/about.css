@@ -1,23 +1,64 @@
 * {
   margin: 0;
   text-decoration: none;
+  box-sizing: border-box;
 }
-body{
-    background-color: #f8f8f8;
+body {
+  background-color: #f8f8f8;
 }
 
 nav {
-  display: flex;
-  height: 70px;
-  justify-content: space-around;
-  align-items: center;
- }
+  overflow: hidden;
+    height: 50px;
+  }
 #nav-items {
-  display: flex;
-  gap: 40px;
+  float: right;
+  margin-right: 108px;
+  
 }
 
-#nav-items a {
-  color: #222222;
-  font-size: 18px;
+#logo {
+  margin-left: 108px;
+  color: #000000;
 }
+#logo:hover {
+  background-color: #607D8B;
+  color: #ffffff;
+}
+nav a {
+  float: left;
+  text-align: center;
+  padding: 14px 14px;
+  font-size: 18px;
+  color: #000000;
+}
+
+nav a:hover {
+  background-color: #607D8B;
+  color: #ffffff;
+  }
+
+  #testimonial{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #testimonial-items{
+    display: flex;
+  }
+ .container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  /* padding-top: 10px;
+  padding-bottom: 10px; */
+  color: white;
+}
+
+.html {width: 90%; background-color: #04AA6D;}
+.css {width: 80%; background-color: #2196F3;}
+.js {width: 65%; background-color: #f44336;}
+.php {width: 60%; background-color: #808080;}

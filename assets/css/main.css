@@ -7,59 +7,55 @@ body {
 }
 
 nav {
-  background-color: #607d8b;
   overflow: hidden;
-  /* justify-content: space-around;
-  align-items: center; */
+    height: 50px;
+    background-color: #607D8B;
 
-  height: 50px;
-  /* display: flex;
-   */
-}
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+  }
 #nav-items {
   float: right;
   margin-right: 108px;
-  /* display: flex;
-  gap: 40px; */
+  
 }
 
-#logo{
-     margin-left: 108px;
-     color: #ffffff;
+#logo {
+  margin-left: 108px;
+  color: #000000;
 }
 #logo:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: #607D8B;
+  color: #ffffff;
 }
 nav a {
   float: left;
   text-align: center;
   padding: 14px 14px;
   font-size: 18px;
-  color: #ffffff;
+  color: #000000;
 }
 
 nav a:hover {
-  background-color: #ddd;
-  color: black;
-}
+  background-color: #607D8B;
+  color: #ffffff;
+  }
 
 #hero {
   display: flex;
-  
 }
 
 #hero-text {
-    margin-left: 108px;
+  margin-left: 108px;
   width: 768px;
- margin-top: 20%;
+  margin-top: 20%;
 }
 
-#hero-image {
-    background-color: #607d8b;
-    width: 768px;
-  /* 
-   */
-  /* width: 100vw; */
-}
+/* #hero-image {
+} */
 /* #607D8B */

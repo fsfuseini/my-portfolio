@@ -2,22 +2,37 @@
   margin: 0;
   text-decoration: none;
 }
-body{
-    background-color: #f8f8f8;
+body {
+  background-color: #f8f8f8;
 }
 
 nav {
-  display: flex;
-  height: 70px;
-  justify-content: space-around;
-  align-items: center;
- }
+  overflow: hidden;
+    height: 50px;
+  }
 #nav-items {
-  display: flex;
-  gap: 40px;
+  float: right;
+  margin-right: 108px;
+  
 }
 
-#nav-items a {
-  color: #222222;
-  font-size: 18px;
+#logo {
+  margin-left: 108px;
+  color: #000000;
 }
+#logo:hover {
+  background-color: #607D8B;
+  color: #ffffff;
+}
+nav a {
+  float: left;
+  text-align: center;
+  padding: 14px 14px;
+  font-size: 18px;
+  color: #000000;
+}
+
+nav a:hover {
+  background-color: #607D8B;
+  color: #ffffff;
+  }
