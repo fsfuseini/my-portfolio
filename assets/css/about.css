@@ -9,12 +9,18 @@ body {
 
 nav {
   overflow: hidden;
-    height: 50px;
-  }
+  height: 50px;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
 #nav-items {
   float: right;
   margin-right: 108px;
-  
 }
 
 #logo {
@@ -22,7 +28,7 @@ nav {
   color: #000000;
 }
 #logo:hover {
-  background-color: #607D8B;
+  background-color: #607d8b;
   color: #ffffff;
 }
 nav a {
@@ -34,19 +40,19 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #607D8B;
+  background-color: #607d8b;
   color: #ffffff;
-  }
+}
 
-  #testimonial{
-    display: flex;
-    flex-direction: column;
-  }
+#testimonial {
+  display: flex;
+  flex-direction: column;
+}
 
-  #testimonial-items{
-    display: flex;
-  }
- .container {
+#testimonial-items {
+  display: flex;
+}
+.container {
   width: 100%;
   background-color: #ddd;
 }
@@ -58,7 +64,19 @@ nav a:hover {
   color: white;
 }
 
-.html {width: 90%; background-color: #04AA6D;}
-.css {width: 80%; background-color: #2196F3;}
-.js {width: 65%; background-color: #f44336;}
-.php {width: 60%; background-color: #808080;}
+.html {
+  width: 90%;
+  background-color: #04aa6d;
+}
+.css {
+  width: 80%;
+  background-color: #2196f3;
+}
+.js {
+  width: 65%;
+  background-color: #f44336;
+}
+.php {
+  width: 60%;
+  background-color: #808080;
+}

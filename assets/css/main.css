@@ -8,21 +8,20 @@ body {
 
 nav {
   overflow: hidden;
-    height: 50px;
-    background-color: #607D8B;
+  height: 50px;
+  background-color: #607d8b;
 
-    /* From https://css.glass */
-background: rgba(255, 255, 255, 0.2);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(5px);
--webkit-backdrop-filter: blur(5px);
-border: 1px solid rgba(255, 255, 255, 0.3);
-  }
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
 #nav-items {
   float: right;
   margin-right: 108px;
-  
 }
 
 #logo {
@@ -30,7 +29,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
   color: #000000;
 }
 #logo:hover {
-  background-color: #607D8B;
+  background-color: #607d8b;
   color: #ffffff;
 }
 nav a {
@@ -42,9 +41,9 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #607D8B;
+  background-color: #607d8b;
   color: #ffffff;
-  }
+}
 
 #hero {
   display: flex;
