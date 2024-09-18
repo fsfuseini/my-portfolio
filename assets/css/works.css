@@ -42,3 +42,13 @@ nav a:hover {
   background-color: #607d8b;
   color: #ffffff;
 }
+
+#work-items{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#work-items img{
+  width: 415px;
+  height: 350px;
+}

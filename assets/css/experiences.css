@@ -42,3 +42,7 @@ nav a:hover {
   background-color: #607d8b;
   color: #ffffff;
 }
+#experiences{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

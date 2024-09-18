@@ -47,6 +47,8 @@ nav a:hover {
 
 #hero {
   display: flex;
+  overflow: hidden;
+  height: 822px;
 }
 
 #hero-text {
@@ -55,6 +57,17 @@ nav a:hover {
   margin-top: 20%;
 }
 
-/* #hero-image {
-} */
+#hero-image {
+  background-color: #607d8b;
+  width: 768px;
+  height: 822px;
+}
+
+#hero-image img{
+  margin-left: -15%;
+  margin-top: -15%;
+  width: 660px;
+  height: 822px;
+}
+
 /* #607D8B */

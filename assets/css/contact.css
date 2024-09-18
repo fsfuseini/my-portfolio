@@ -42,3 +42,18 @@ nav a:hover {
   background-color: #607d8b;
   color: #ffffff;
 }
+
+#contact{
+  background-color: aqua;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: auto;
+  /* width: 650px;
+  height: 725px; */
+}
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
