@@ -84,7 +84,18 @@ nav a:hover {
   margin-top: 128px;
   margin: 128px;
 }
+.icon{
+  width: 246px;
+  height: 84px;
+  color: #607d8b;
+}
 
+.icon img{
+  width: 70px;
+  height: 70px;
+  /* margin: 0 88px; */
+  color: #607d8b;
+}
 .service-item {
   padding: 30px;
   width: 306px;

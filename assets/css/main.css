@@ -61,7 +61,7 @@ nav a:hover {
 #hero-text {
   margin-left: 108px;
   width: 768px;
-  margin-top: 10%;
+  margin-top: 15%;
 }
 #hero-text h1 {
   color: #222222;
@@ -109,8 +109,9 @@ nav a:hover {
 
 footer{
   font-size: 13px;
-  margin-right: 157px;
+  margin: 190px 157px 0 0;
+  /* margin-right: 157px;
   margin-bottom: 40px;
-  margin-top: 161px;
+  margin-top: 161px; */
 }
 /* #607D8B */
