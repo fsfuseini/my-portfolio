@@ -1,9 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 * {
   margin: 0;
   text-decoration: none;
+  box-sizing: border-box;
+  list-style: none;
+  resize: none;
 }
 body {
-  background-color: #F6E2C4;
+  background-color: #f6e2c4;
+  font-family: "Poppins";
 }
 
 nav {
@@ -19,6 +25,7 @@ nav {
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
+
 #nav-items {
   float: right;
   margin-right: 108px;
@@ -43,31 +50,113 @@ nav a {
 nav a:hover {
   background-color: #607d8b;
   color: #f2f2f2;
+  border-radius: 20px;
 }
 
-#contact{
-  background-color: aqua;
+#top {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 50%;
-  margin: auto;
-  /* width: 650px;
-  height: 725px; */
 }
-form{
+
+#top p {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  color: #000000;
+  opacity: 40%;
+  margin-top: 148px;
+  font-size: 14px;
+  text-align: center;
+}
+#top a {
+  color: #000000;
+}
+
+#top h1 {
+  font-size: 40px;
+  color: #222222;
+}
+
+#contact {
+ padding: 48px;
+ margin: 88px 436px;
+}
+#contact-items{
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.contact-item{
+  
+}
+
+.contact-item span{
+  font-size: 13px;
+  color: #000000;
+  font-weight: bold;
+}
+form {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
+form a{
+  padding: 9px 12px;
+  color: #f2f2f2;
+  background-color: #607d8b;
+  width: 128px;
+  height: 37px;
+  font-size: 12px;
+  text-align: center;
+}
+
+#name,
+#email,
+#subject {
+  background: transparent;
+  outline: 0;
+  border-width: 0 0 1px;
+  width: 552px;
+  height: 45px;
+}
+
+#message {
+  background: transparent;
+  outline: 0;
+  border-width: 0 0 1px;
+  width: 552px;
+  height: 100px;
+}
 
 
+#socials{
+  margin-top: 48px;
+}
 
+#socials p{
+  font-size: 20px;
+  color: #000000;
+}
 
-footer{
+#socials span{
+  color: #607d8b;
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+#socials a{
+  color: #607d8b;
+}
+footer {
   font-size: 13px;
   width: 1320px;
   height: 23px;
   margin: 32px 100px;
-  text-align: center; 
- }
+  text-align: center;
+}

@@ -5,7 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
     <link rel="stylesheet" href="../assets/css/contact.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
+
   <body>
     <nav>
       <a id="logo" href="../index.html">
@@ -21,7 +26,7 @@
         <a href="./contact.html">Contact</a>
       </div>
     </nav>
-    <div>
+    <div id="top">
       <p><a href="../index.html">Home></a><span>Contact></span></p>
       <h1>Contact Us</h1>
     </div>
@@ -30,26 +35,42 @@
       <h3>Contact Us</h3>
       <p>We're open for any suggestion or just to have a chat</p>
 
-      <div style="display: flex; gap: 10px">
-        <div>
+      <div id="contact-items">
+        <div class="contact-item">
           <span>ADDRESS:</span>
           <p>Nii Kodia Road</p>
         </div>
-        <div>
+        <div class="contact-item">
           <span>EMAIL:</span>
           <p>suhuyini@gmail.com</p>
         </div>
-        <div>
+        <div class="contact-item">
           <span>PHONE:</span>
           <p>+233 12 345 6789</p>
         </div>
       </div>
       <form>
-        <input type="text" name="" id="" placeholder="Name" />
-        <input type="email" name="" id="" placeholder="Email" />
-        <input type="text" name="" id="" placeholder="Subject" />
-        <textarea name="" id="" placeholder="Create a message here"></textarea>
+        <input type="text" name="" id="name" placeholder="Name" />
+        <input type="email" name="" id="email" placeholder="Email" />
+        <input type="text" name="" id="subject" placeholder="Subject" />
+        <textarea
+          name=""
+          id="message"
+          placeholder="Create a message here"
+        ></textarea>
+
+        <a href="#">SEND MESSAGE</a>
       </form>
+
+      <div id="socials">
+        <p>Follow Us Here</p>
+        <span
+          ><a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-instagram"></a>
+          <a href="#" class="fa fa-linkedin"></a
+        ></span>
+      </div>
     </div>
 
     <footer>
