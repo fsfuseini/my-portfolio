@@ -10,11 +10,17 @@ body {
   background-color: #F6E2C4;
   font-family: "Poppins";
 }
+
+.pri-color {
+  color: #607d8b;
+}
+
 nav {
   position: fixed;
   width: 100vw;
   overflow: hidden;
   height: 70px;
+  background-color: #607d8b;
   /* From https://css.glass */
   background: rgba(255, 255, 255, 0.2);
   border-radius: 16px;
@@ -31,10 +37,13 @@ nav {
 #logo {
   margin-left: 108px;
   color: #000000;
+  padding: 14px 14px;
+  font-size: 18px;
 }
 #logo:hover {
   background-color: #607d8b;
   color: #f2f2f2;
+  border-radius: 20px;
 }
 nav a {
   float: left;
@@ -47,6 +56,7 @@ nav a {
 nav a:hover {
   background-color: #607d8b;
   color: #f2f2f2;
+  border-radius: 20px;
 }
 
 
