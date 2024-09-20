@@ -7,17 +7,20 @@
   list-style: none;
 }
 body {
-  background-color: #f8f8f8;
-  font-family: 'Poppins';
+  background-color: #F6E2C4;
+  font-family: "Poppins";
 }
 
-.pri-color{
+.pri-color {
   color: #607d8b;
 }
 
 nav {
+  position: fixed;
+  width: 100vw;
   overflow: hidden;
-  height: 50px;
+  height: 70px;
+  background-color: #607d8b;
   /* From https://css.glass */
   background: rgba(255, 255, 255, 0.2);
   border-radius: 16px;
@@ -34,10 +37,13 @@ nav {
 #logo {
   margin-left: 108px;
   color: #000000;
+  padding: 14px 14px;
+  font-size: 18px;
 }
 #logo:hover {
   background-color: #607d8b;
-  color: #ffffff;
+  color: #f2f2f2;
+  border-radius: 20px;
 }
 nav a {
   float: left;
@@ -49,7 +55,8 @@ nav a {
 
 nav a:hover {
   background-color: #607d8b;
-  color: #ffffff;
+  color: #f2f2f2;
+  border-radius: 20px;
 }
 
 #top {
@@ -58,6 +65,7 @@ nav a:hover {
   justify-content: center;
   align-items: center;
 }
+
 #top p {
   display: flex;
   gap: 10px;
@@ -100,34 +108,34 @@ nav a:hover {
   gap: 24px;
 }
 
-#me{
+#me {
   font-size: 13px;
   color: #607d8b;
   letter-spacing: 2px;
   font-weight: 600;
 }
-#about-me h2{
+#about-me h2 {
   font-size: 40px;
 }
 
-#about-me p{
+#about-me p {
   font-size: 16px;
 }
-#details{
+#details {
   display: flex;
   text-align: start;
   gap: 40px;
 }
 
-.detail-index{
+.detail-index {
   display: flex;
   flex-direction: column;
 }
 
-.client-cat-card{
+.client-cat-card {
   display: flex;
   flex-direction: column;
-  background-color: #ffffff;
+  background-color: #f2f2f2;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -135,52 +143,146 @@ nav a:hover {
   height: 193px;
 }
 
-.client-cat-card h1{
+.client-cat-card h1 {
   color: #607d8b;
   font-size: 40px;
 }
 
-#clients-btn{
+#clients-btn {
   background-color: #607d8b;
   padding: 16px 24px;
   /* width: 153px; */
   /* height: 51px;  */
-  color: #ffffff;
+  color: #f2f2f2;
   margin-right: 470px;
 }
+
+#skills {
+  margin-top: 144px;
+}
+
+#skills-top {
+  margin-top: 128px;
+  margin-bottom: 48px;
+  margin-left: 375px;
+  margin-right: 375px;
+  height: 132px;
+  /* width: 793px; */
+  /* align-items: center;
+justify-content: center; */
+  text-align: center;
+}
+
+#skills-top h2 {
+  font-size: 40px;
+  color: #222222;
+}
+
+#skills-top span {
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: #607d8b;
+  font-weight: bold;
+}
+
 #testimonial {
+  margin-top: 128px;
+  padding-top: 128px;
   display: flex;
   flex-direction: column;
 }
 
+#testimonial-top {
+  text-align: center;
+}
+
+#testimonial-top h2 {
+  font-size: 40px;
+  color: #222222;
+}
+
+#testimonial-top span {
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: #607d8b;
+  font-weight: bold;
+}
 #testimonial-items {
+  /* margin-top: 72px; */
+  margin: 100px 88px;
   display: flex;
+  gap: 24px;
+}
+
+.happy-clients {
+  background-color: #f2f2f2;
+  padding: 35px 30px 30px 30px;
+  justify-content: center;
+  align-items: center;
+  width: 410px;
+  height: 279px;
+}
+
+#skill-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.skill-item {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.skill-item p {
+  font-size: 14px;
+  padding-left: 10px;
+  font-weight: bold;
+  color: #607d8b;
 }
 .container {
   width: 100%;
   background-color: #ddd;
+  border-radius: 20px;
 }
 
 .skills {
   text-align: right;
   /* padding-top: 10px;
   padding-bottom: 10px; */
-  color: white;
+  color: #f2f2f2;
 }
 
 .html {
   width: 90%;
-  background-color: #04aa6d;
+  background-color: #607d8b;
+  border-radius: 20px;
+  padding-right: 5px;
 }
 .css {
   width: 80%;
-  background-color: #2196f3;
+  background-color: #607d8b;
+  border-radius: 20px;
+  padding-right: 5px;
 }
 .js {
   width: 65%;
-  background-color: #f44336;
+  background-color: #607d8b;
+  border-radius: 20px;
+  padding-right: 5px;
 }
-.php {
+.wp {
   width: 60%;
-  background-color: #808080;
+  background-color: #607d8b;
+  border-radius: 20px;
+  padding-right: 5px;
+}
+
+footer {
+  font-size: 13px;
+  width: 1320px;
+  height: 23px;
+  margin: 32px 100px;
+  text-align: center;
 }

@@ -3,12 +3,14 @@
   text-decoration: none;
 }
 body {
-  background-color: #f8f8f8;
+  background-color: #F6E2C4;
 }
 
 nav {
+  position: fixed;
+  width: 100vw;
   overflow: hidden;
-  height: 50px;
+  height: 70px;
   /* From https://css.glass */
   background: rgba(255, 255, 255, 0.2);
   border-radius: 16px;
@@ -28,7 +30,7 @@ nav {
 }
 #logo:hover {
   background-color: #607d8b;
-  color: #ffffff;
+  color: #f2f2f2;
 }
 nav a {
   float: left;
@@ -40,7 +42,7 @@ nav a {
 
 nav a:hover {
   background-color: #607d8b;
-  color: #ffffff;
+  color: #f2f2f2;
 }
 
 #contact{
@@ -57,3 +59,15 @@ form{
   flex-direction: column;
   gap: 20px;
 }
+
+
+
+
+
+footer{
+  font-size: 13px;
+  width: 1320px;
+  height: 23px;
+  margin: 32px 100px;
+  text-align: center; 
+ }
