@@ -7,8 +7,8 @@
   list-style: none;
 }
 body {
-  background-color: #F6E2C4;
-  font-family: 'Poppins';
+  background-color: #f6e2c4;
+  font-family: "Poppins";
 }
 
 nav {
@@ -24,7 +24,6 @@ nav {
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
-
 
 #nav-items {
   float: right;
@@ -82,22 +81,39 @@ nav a:hover {
 #experiences {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 24px;
+  gap: 40px;
   margin-left: 108px;
   margin-right: 108px;
   margin-top: 128px;
 }
 
-.experience-item{
+.experience-item {
+  display: flex;
+  flex-direction: column;
   background-color: #f2f2f2;
   padding: 30px;
   width: 636px;
   height: 308px;
   justify-content: center;
-  align-items: center;
+  align-items: start;
+  border-radius: 50px 0;
 }
 
+.experience-item h5 {
+  color: #607d8b;
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 3px;
+}
 
+.experience-item span{
+  color: #b3b3b3;
+  font-size: 13px;
+}
+.fas {
+  color: #607d8b;
+  margin-right: 10px;
+}
 
 footer {
   font-size: 13px;

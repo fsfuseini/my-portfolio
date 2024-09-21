@@ -7,7 +7,7 @@
   list-style: none;
 }
 body {
-  background-color: #F6E2C4;
+  background-color: #f6e2c4;
   font-family: "Poppins";
 }
 
@@ -136,11 +136,11 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   background-color: #f2f2f2;
-  text-align: center;
   align-items: center;
   justify-content: center;
   width: 300px;
   height: 193px;
+  border-radius: 0 50px;
 }
 
 .client-cat-card h1 {
@@ -208,19 +208,67 @@ justify-content: center; */
   font-weight: bold;
 }
 #testimonial-items {
-  /* margin-top: 72px; */
-  margin: 100px 88px;
+  width: 1320px;
+  height: 359px;
+  margin: 88px 100px;
+  padding: 0 12px;
   display: flex;
   gap: 24px;
 }
-
-.happy-clients {
-  background-color: #f2f2f2;
+.testimonial-card {
+  margin: 0 4px;
   padding: 35px 30px 30px 30px;
-  justify-content: center;
-  align-items: center;
+  background-color: #f2f2f2;
+  border-radius: 50px 0;
   width: 410px;
   height: 279px;
+    /* justify-content: center;
+  align-items: center; */
+}
+
+.happy-client {
+  display: flex;
+  gap: 0;
+  margin-bottom: 24px;
+  align-items: center;
+}
+
+.client-image img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.client-image i {
+  color: #f2f2f2;
+  background-color: #607d8b;
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  border-radius: 50%;
+  padding: 7px;
+  margin-left: -30%;
+  margin-top: -10%;
+}
+.client-info {
+  padding-left: 16px;
+  margin-left: -10%;
+}
+.client-info h5{
+  color: #222222;
+  font-size: 22px;
+  font-size: bold;
+}
+
+.client-info span{
+  color: #607d8b;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.testimonial-card p {
+  /* height: 86px; */
+  font-size: 16px;
 }
 
 #skill-items {

@@ -87,9 +87,12 @@ nav a:hover {
   display: flex;
   gap: 20px;
   margin-top: 10px;
+  }
+#contact-top{
+  text-align: center;
 }
-
 .contact-item{
+  
   
 }
 
@@ -99,22 +102,38 @@ nav a:hover {
   font-weight: bold;
 }
 form {
+  background-color: #f2f2f2;
   display: flex;
   flex-direction: column;
   gap: 20px;
+  padding: 20px;
+  width: 600px;
 }
 
-form a{
+form input, textarea{
+  border: 0;
+  margin: 10px 0;
+  padding: 20px;
+  outline: none;
+  font-size: 16px;
+  background-color: #f6e2c4;
+}
+form button{
   padding: 9px 12px;
   color: #f2f2f2;
   background-color: #607d8b;
-  width: 128px;
-  height: 37px;
-  font-size: 12px;
+  padding: 14px;
+  font-size: 16px;
   text-align: center;
+  border: none;
+  width: 30%;
 }
 
-#name,
+form button:hover{
+  cursor: pointer;
+}
+
+/* #name,
 #email,
 #subject {
   background: transparent;
@@ -122,15 +141,15 @@ form a{
   border-width: 0 0 1px;
   width: 552px;
   height: 45px;
-}
+} */
 
-#message {
+/* #message {
   background: transparent;
   outline: 0;
   border-width: 0 0 1px;
   width: 552px;
   height: 100px;
-}
+} */
 
 
 #socials{
