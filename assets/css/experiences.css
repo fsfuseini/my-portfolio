@@ -81,7 +81,7 @@ nav a:hover {
 #experiences {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 40px;
+  gap: 20px;
   margin-left: 108px;
   margin-right: 108px;
   margin-top: 128px;
@@ -97,6 +97,7 @@ nav a:hover {
   justify-content: center;
   align-items: start;
   border-radius: 50px 0;
+  text-wrap: wrap;
 }
 
 .experience-item h5 {
@@ -109,6 +110,11 @@ nav a:hover {
 .experience-item span{
   color: #b3b3b3;
   font-size: 13px;
+}
+
+.experience-item p{
+  color: #607d8b;
+  text-align: justify;
 }
 .fas {
   color: #607d8b;
