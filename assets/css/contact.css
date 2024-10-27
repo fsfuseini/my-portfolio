@@ -69,6 +69,8 @@ nav a:hover {
   margin-top: 148px;
   font-size: 14px;
   text-align: center;
+  font-weight: bold;
+  letter-spacing: 2px;  
 }
 #top a {
   color: #000000;
@@ -91,10 +93,7 @@ nav a:hover {
 #contact-top{
   text-align: center;
 }
-.contact-item{
-  
-  
-}
+
 
 .contact-item span{
   font-size: 13px;

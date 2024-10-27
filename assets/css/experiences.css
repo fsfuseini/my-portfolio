@@ -68,6 +68,8 @@ nav a:hover {
   margin-top: 148px;
   font-size: 14px;
   text-align: center;
+  font-weight: bold;
+  letter-spacing: 2px;  
 }
 #top a {
   color: #000000;
