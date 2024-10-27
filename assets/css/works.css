@@ -89,7 +89,30 @@ section img {
   width: 415px;
   height: 350px;
 }
+.project {
+  width: 100%;
+  height: 350px;
+  position: relative;
+  overflow: hidden;
+}
 
+.project-overly {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  opacity: 0;
+}
+.project-overly:hover {
+  opacity: 1;
+}
 footer {
   font-size: 13px;
   width: 1320px;
