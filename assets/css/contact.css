@@ -133,24 +133,6 @@ form button:hover{
   cursor: pointer;
 }
 
-/* #name,
-#email,
-#subject {
-  background: transparent;
-  outline: 0;
-  border-width: 0 0 1px;
-  width: 552px;
-  height: 45px;
-} */
-
-/* #message {
-  background: transparent;
-  outline: 0;
-  border-width: 0 0 1px;
-  width: 552px;
-  height: 100px;
-} */
-
 
 #socials{
   margin-top: 48px;
@@ -178,4 +160,12 @@ footer {
   height: 23px;
   margin: 32px 100px;
   text-align: center;
+}
+
+footer a {
+  color: #000000;
+}
+
+footer a:hover{
+  color: #607d8b;
 }

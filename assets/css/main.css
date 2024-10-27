@@ -108,10 +108,19 @@ nav a:hover {
 }
 
 footer{
+  color: #000000;
   font-size: 13px;
   margin: 190px 157px 0 0;
   /* margin-right: 157px;
   margin-bottom: 40px;
   margin-top: 161px; */
+}
+
+footer a {
+  color: #000000;
+}
+
+footer a:hover{
+  color: #607d8b;
 }
 /* #607D8B */

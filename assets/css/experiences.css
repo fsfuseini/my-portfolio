@@ -128,3 +128,11 @@ footer {
   margin: 32px 100px;
   text-align: center;
 }
+
+footer a {
+  color: #000000;
+}
+
+footer a:hover{
+  color: #607d8b;
+}
