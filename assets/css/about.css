@@ -236,11 +236,13 @@ justify-content: center; */
   border-radius: 50px 0;
   width: 410px;
   height: 279px;
-   text-align: justify;
   /* justify-content: center;
   align-items: center; */
 }
 
+.testimonial-card p{
+  text-align: justify;
+}
 
 .happy-client {
   display: flex;
