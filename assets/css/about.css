@@ -160,12 +160,12 @@ nav a:hover {
 
 #clients-btn {
   background-color: #607d8b;
-  padding: 16px;
+  padding: 10px;
   font-size: 16px;
-  width: 153px;
+  width: 130px;
   /* height: 51px;  */
   color: #f2f2f2;
-  margin-right: 470px;
+  /* margin-right: 470px; */
   border-radius: 4px;
 }
 
@@ -340,13 +340,25 @@ justify-content: center; */
 }
 
 .js {
-  width: 65%;
+  width: 80%;
   background-color: #607d8b;
   border-radius: 20px;
   padding-right: 5px;
 }
 
 .wp {
+  width: 70%;
+  background-color: #607d8b;
+  border-radius: 20px;
+  padding-right: 5px;
+}
+.fg {
+  width: 60%;
+  background-color: #607d8b;
+  border-radius: 20px;
+  padding-right: 5px;
+}
+.cv {
   width: 60%;
   background-color: #607d8b;
   border-radius: 20px;
