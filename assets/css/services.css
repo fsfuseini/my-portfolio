@@ -7,13 +7,20 @@
   list-style: none;
 }
 body {
-  background-color: #F6E2C4;
+  background-color: #f6e2c4;
   font-family: "Poppins";
 }
 
 .pri-color {
   color: #607d8b;
 }
+
+@media screen and (max-width: 768px) {
+  #nav-items {
+      display: none; /* Hides the navigation items on small screens */
+  }
+}
+
 
 nav {
   position: fixed;
@@ -59,7 +66,6 @@ nav a:hover {
   border-radius: 20px;
 }
 
-
 #top {
   display: flex;
   flex-direction: column;
@@ -96,13 +102,13 @@ nav a:hover {
   margin-top: 128px;
   margin: 128px;
 }
-.icon{
+.icon {
   width: 246px;
   height: 84px;
   color: #607d8b;
 }
 
-.icon img{
+.icon img {
   width: 70px;
   height: 70px;
   /* margin: 0 88px; */
@@ -114,19 +120,18 @@ nav a:hover {
   height: 360px;
   background-color: #f2f2f2;
 }
-.service-item p{
+.service-item p {
   color: #999999;
 }
-#pricing-top{
+#pricing-top {
   text-align: center;
 }
 
-#pricing-top span{
+#pricing-top span {
   color: #607d8b;
   font-weight: bold;
   letter-spacing: 2px;
 }
-
 
 #price-types {
   display: flex;
@@ -135,7 +140,7 @@ nav a:hover {
   margin: 108px;
 }
 
-.price-plan{
+.price-plan {
   padding: 30px;
   width: 306px;
   height: 546px;
@@ -147,17 +152,17 @@ nav a:hover {
   justify-content: center;
 }
 
-.price-plan sup{
+.price-plan sup {
   color: #a2a2a2;
   font-size: 24px;
 }
 
-.amount{
+.amount {
   color: #607d8b;
   /* line-height: 90px; */
   font-size: 50px;
 }
-.price-plan a{
+.price-plan a {
   padding: 16px 8px;
   color: #f2f2f2;
   background-color: #607d8b;
@@ -168,26 +173,76 @@ nav a:hover {
   font-weight: bold;
   margin: 48px 49px 30px 49px;
 }
-.check{
+.check {
   color: #607d8b;
   font-weight: bolder;
   margin-right: 10px;
   font-size: 16px;
 }
 
-
-footer{
+footer {
   font-size: 13px;
   width: 1320px;
   height: 23px;
   margin: 32px 100px;
-  text-align: center; 
- }
+  text-align: center;
+}
 
- footer a {
+footer a {
   color: #000000;
- }
+}
 
- footer a:hover{
+footer a:hover {
   color: #607d8b;
- }
+}
+
+/* Add this media query for responsiveness */
+@media (max-width: 768px) {
+  /* Navigation items */
+  #nav-items {
+    float: none; /* Remove float for better stacking */
+    text-align: center; /* Center nav items */
+    margin: 0; /* Remove margin */
+  }
+
+  #logo {
+    margin: 0 auto; /* Center logo */
+  }
+
+  /* Top section */
+  #top p {
+    margin-top: 80px; /* Adjust margin for smaller screens */
+    font-size: 12px; /* Reduce font size */
+  }
+
+  #top h1 {
+    font-size: 28px; /* Reduce font size */
+  }
+
+  /* Service items */
+  #service-items {
+    grid-template-columns: 1fr; /* Stack service items in a single column */
+    margin: 16px; /* Adjust margin */
+  }
+
+  .service-item {
+    width: 100%; /* Make service items full width */
+    margin: 0 auto; /* Center service items */
+  }
+
+  /* Pricing section */
+  #price-types {
+    flex-direction: column; /* Stack price plans vertically */
+    margin: 16px; /* Adjust margin */
+  }
+
+  .price-plan {
+    width: 100%; /* Make price plans full width */
+    margin: 10px 0; /* Add margin for spacing */
+  }
+
+  footer {
+    width: 100%; /* Make footer full width */
+    margin: 16px 0; /* Adjust margin */
+  }
+}

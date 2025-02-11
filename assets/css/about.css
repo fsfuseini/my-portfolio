@@ -54,6 +54,7 @@ nav a {
   text-align: center;
   padding: 14px 14px;
   font-size: 18px;
+  
   color: #000000;
 }
 
@@ -224,7 +225,7 @@ justify-content: center; */
   width: 1320px;
   height: 359px;
   margin: 88px 100px;
-  padding: 0 12px;
+  padding: 0 2px;
   display: flex;
   gap: 24px;
 }
@@ -243,6 +244,10 @@ justify-content: center; */
 .testimonial-card p{
   text-align: justify;
 }
+
+/* html, body {
+  overflow-x: hidden;
+} */
 
 .happy-client {
   display: flex;
@@ -379,4 +384,67 @@ footer a {
 
 footer a:hover{
   color: #607d8b;
+}
+
+/* Add this media query for responsiveness */
+@media (max-width: 768px) {
+  /* Navigation items */
+  #nav-items {
+    flex-direction: column; /* Stack nav items vertically */
+    align-items: center; /* Center nav items */
+  }
+
+  /* Top section */
+  #top {
+    text-align: center; /* Center text in the top section */
+  }
+
+  /* Clients, Skills, and Testimonial sections */
+  #clients, #skills, #testimonial {
+    flex-direction: column; /* Stack sections vertically */
+    align-items: center; /* Center content */
+  }
+
+  /* Client category cards */
+  .client-cat-card, .skill-item, .testimonial-card {
+    width: 90%; /* Make cards take up more width on smaller screens */
+    margin: 10px 0; /* Add margin for spacing */
+  }
+
+  /* About me section */
+  #about-me {
+    text-align: center; /* Center text in the about me section */
+  }
+
+  /* Clients button */
+  #clients-btn {
+    width: 100%; /* Make button full width */
+    padding: 10px; /* Add padding for better touch targets */
+  }
+
+  /* Testimonial items */
+  #testimonial-items {
+    display: grid; /* Use grid layout for testimonials */
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* Responsive grid with smaller min width */
+    gap: 16px; /* Add gap between items */
+  }
+
+  /* Testimonial card adjustments */
+  .testimonial-card {
+    width: 100%; /* Make testimonial cards full width */
+    padding: 20px; /* Add padding for better spacing */
+    box-sizing: border-box; /* Ensure padding is included in width */
+    margin: 0; /* Remove any margin to prevent overflow */
+  }
+
+  /* Skills section */
+  #skills-top {
+    margin-left: 20px; /* Adjust margins for smaller screens */
+    margin-right: 20px;
+  }
+
+  /* Footer adjustments */
+  footer {
+    margin: 16px 20px; /* Adjust footer margins */
+  }
 }

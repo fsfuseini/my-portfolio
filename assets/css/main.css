@@ -4,10 +4,11 @@
   margin: 0;
   text-decoration: none;
 }
+
 body {
-  background-color: #F6E2C4;
+  background-color: #f6e2c4;
   overflow: hidden;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 
 nav {
@@ -16,7 +17,6 @@ nav {
   overflow: hidden;
   height: 70px;
   background-color: #607d8b;
-  /* From https://css.glass */
   background: rgba(255, 255, 255, 0.2);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -24,6 +24,7 @@ nav {
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
+
 #nav-items {
   float: right;
   margin-right: 108px;
@@ -33,11 +34,13 @@ nav {
   margin-left: 108px;
   color: #000000;
 }
+
 #logo:hover {
   border-radius: 20px;
   background-color: #607d8b;
   color: #f2f2f2;
 }
+
 nav a {
   float: left;
   text-align: center;
@@ -55,7 +58,6 @@ nav a:hover {
 #hero {
   display: flex;
   overflow: hidden;
-  /* height: 822px; */
 }
 
 #hero-text {
@@ -63,22 +65,24 @@ nav a:hover {
   width: 768px;
   margin-top: 15%;
 }
+
 #hero-text h1 {
   color: #222222;
   font-size: 80px;
   text-align: start;
   line-height: 96px;
 }
-#hero-text p{
+
+#hero-text p {
   margin-top: 24px;
 }
+
 #hero-text span {
   color: #607d8b;
   font-weight: bold;
   font-size: 16px;
   letter-spacing: 1px;
 }
-
 
 #more {
   background-color: #607d8b;
@@ -94,33 +98,146 @@ nav a:hover {
   padding: 16px 24px;
   font-size: 12px;
 }
+
 #hero-image {
   background-color: #607d8b;
   width: 768px;
-  /* height: 822px; */
 }
 
 #hero-image img {
   margin-left: -10%;
   margin-top: -10%;
   width: 660px;
-  /* height: 822px; */
 }
 
-footer{
+footer {
   color: #000000;
   font-size: 13px;
   margin: 190px 157px 0 0;
-  /* margin-right: 157px;
-  margin-bottom: 40px;
-  margin-top: 161px; */
 }
 
 footer a {
   color: #000000;
 }
 
-footer a:hover{
+footer a:hover {
   color: #607d8b;
 }
-/* #607D8B */
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  #hero-text {
+    width: 600px;
+    margin-left: 80px;
+  }
+
+  #hero-text h1 {
+    font-size: 60px;
+    line-height: 72px;
+  }
+
+  #hero-image img {
+    width: 500px;
+  }
+}
+
+@media (max-width: 992px) {
+  #hero {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #hero-text {
+    width: 80%;
+    margin-left: 0;
+    margin-top: 100px;
+  }
+
+  #hero-text h1 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  #hero-image {
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  #hero-image img {
+    width: 80%;
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  #nav-items {
+    margin-right: 50px;
+  }
+
+  #logo {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero-text h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  #hero-text p {
+    font-size: 14px;
+  }
+
+  #hero-text span {
+    font-size: 14px;
+  }
+
+  nav a {
+    font-size: 16px;
+    padding: 10px 10px;
+  }
+
+  #nav-items {
+    margin-right: 20px;
+  }
+
+  #logo {
+    margin-left: 20px;
+  }
+
+  footer {
+    margin: 100px 20px 0 0;
+  }
+}
+
+@media (max-width: 576px) {
+  #hero-text h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  #hero-text p {
+    font-size: 12px;
+  }
+
+  #hero-text span {
+    font-size: 12px;
+  }
+
+  nav a {
+    font-size: 14px;
+    padding: 8px 8px;
+  }
+
+  #more,
+  #hire {
+    padding: 12px 18px;
+    font-size: 10px;
+  }
+
+  footer {
+    font-size: 12px;
+    margin: 80px 10px 0 0;
+  }
+}
