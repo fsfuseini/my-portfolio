@@ -5,10 +5,13 @@
   text-decoration: none;
   box-sizing: border-box;
   list-style: none;
+  
 }
 body {
   background-color: #f6e2c4;
   font-family: "Poppins";
+  overflow-x: hidden;
+
 }
 
 .pri-color {
@@ -99,7 +102,7 @@ nav a:hover {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 24px;
   text-align: center;
-  margin-top: 128px;
+  margin-top: 120px;
   margin: 128px;
 }
 .icon {
@@ -115,10 +118,11 @@ nav a:hover {
   color: #607d8b;
 }
 .service-item {
-  padding: 20px;
-  width: 306px;
-  height: 360px;
+padding: 10px;
+  width: 270px;
+  height: 385px;
   background-color: #f2f2f2;
+  /* overflow: auto; */
 }
 .service-item p {
   color: #999999;
@@ -142,8 +146,8 @@ nav a:hover {
 
 .price-plan {
   padding: 30px;
-  width: 306px;
-  height: 546px;
+  width: 310px;
+  height: 520px;
   background-color: #f2f2f2;
   display: flex;
   flex-direction: column;
@@ -166,12 +170,13 @@ nav a:hover {
   padding: 16px 8px;
   color: #f2f2f2;
   background-color: #607d8b;
-  width: 147px;
-  height: 51px;
+  width: 130px;
+  height: 45px;
   font-size: 12px;
   letter-spacing: 1px;
   font-weight: bold;
-  margin: 48px 49px 30px 49px;
+  margin: 20px 25px 20px 40px;
+  /* overflow-y: hidden; */
 }
 .check {
   color: #607d8b;
