@@ -9,6 +9,8 @@
 body {
   background-color: #f6e2c4;
   font-family: "Poppins";
+  overflow-x: hidden;
+
 }
 
 @media screen and (max-width: 768px) {
