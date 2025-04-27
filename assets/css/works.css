@@ -9,7 +9,16 @@
 body {
   background-color: #f6e2c4;
   font-family: "Poppins";
+  overflow-x: hidden;
+
 }
+
+@media screen and (max-width: 768px) {
+  #nav-items {
+      display: none; /* Hides the navigation items on small screens */
+  }
+}
+
 
 nav {
   position: fixed;
@@ -23,6 +32,7 @@ nav {
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.3);
+  z-index: 1000;
 }
 
 #nav-items {
@@ -120,7 +130,7 @@ section img {
   color: white;
 }
 
-.project-overly a:hover{
+.project-overly a:hover {
   color: #607d8b;
 }
 footer {
@@ -135,6 +145,50 @@ footer a {
   color: #000000;
 }
 
-footer a:hover{
+footer a:hover {
   color: #607d8b;
+}
+
+/* Add this media query for responsiveness */
+@media (max-width: 768px) {
+  /* Navigation items */
+  #nav-items {
+    float: none; /* Remove float for better stacking */
+    text-align: center; /* Center nav items */
+    margin: 0; /* Remove margin */
+  }
+
+  #logo {
+    margin: 0 auto; /* Center logo */
+  }
+
+  /* Top section */
+  #top p {
+    margin-top: 80px; /* Adjust margin for smaller screens */
+    font-size: 12px; /* Reduce font size */
+  }
+
+  #top h1 {
+    font-size: 28px; /* Reduce font size */
+  }
+
+  /* Section for projects */
+  section {
+    grid-template-columns: 1fr; /* Stack project items in a single column */
+    margin: 16px; /* Adjust margin */
+  }
+
+  section img {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .project {
+    height: auto; /* Allow height to adjust based on content */
+  }
+
+  footer {
+    width: 100%; /* Make footer full width */
+    margin: 16px 0; /* Adjust margin */
+  }
 }
